@@ -182,6 +182,10 @@ color: #FF6DFF !important;
 color: #0CE8E8 !important;
 }
 
+.contentTag[title*="#Jul-"] {
+color: #193FFF !important;
+}
+
 
 /**************************************************************
 *********************** Action Tags ***************************
