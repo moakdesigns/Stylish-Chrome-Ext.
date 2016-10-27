@@ -17,6 +17,10 @@ color: #C267FB !important;
 color: #6215A8 !important;
 }*/
 
+
+/**************************************************************
+****************** People [@] *******************
+**************************************************************/
 .contentTag[title*="@Chelsea"] {
 color: #FFFF00 !important;
 }
@@ -45,6 +49,7 @@ color: #CC9E42 !important;
 color: #4DC549 !important;
 }
 
+/*
 .contentTag[title*="@ma-"] {
 color: #00BFFF !important;
 }
@@ -53,33 +58,10 @@ color: #00BFFF !important;
 color: #C267FB !important;
 }
 
-/*contentTag[title*="@Tasks"] {
+contentTag[title*="@Tasks"] {
 color: #6215A8 !important;
-}*/
-
-
-/**************************************************************
-****************** People [@] *******************
-**************************************************************/
-.contentTag[title*="@Chelsea"] {
-color: #FFFF00 !important;
 }
-
-.contentTag[title*="@Peter"] {
-color: #00A388 !important;
-}
-
-.contentTag[title*="@Lora"] {
-color: #E54661 !important;
-}
-
-.contentTag[title*="@Raul"] {
-color: #468966 !important;
-}
-
-.contentTag[title*="@Sam"] {
-color: #CC9E42 !important;
-}
+*/
 
 
 /**************************************************************
@@ -99,6 +81,10 @@ color: #939720 !important;
 
 .contentTag[title*="#Goals-For-Next-Week"] {
 color: #096051 !important;
+}
+
+.contentTag[title*="#In-Near-Future"] {
+color: #915990 !important;
 }
 
 
@@ -150,6 +136,10 @@ color: #3498DB !important;
 color: #0F9D58 !important;
 }
 
+.contentTag[title*="#Google-"] {
+color: #0F9D58 !important;
+}
+
 .contentTag[title*="#AdWords"] {
 color: #4F8DF4 !important;
 }
@@ -158,12 +148,36 @@ color: #4F8DF4 !important;
 color: #008372 !important;
 }
 
+.contentTag[title*="#BingPlacesForBusiness"] {
+color: #008372 !important;
+}
+
+.contentTag[title*="#Bing-"] {
+color: #008372 !important;
+}
+
+.contentTag[title*="#Search"] {
+color: #3B4FFF !important;
+}
+
+.contentTag[title*="#Display"] {
+color: #37CF1C !important;
+}
+
 
 /**************************************************************
 ************************ Date & Time **************************
 **************************************************************/
 .contentTag[title*="#2016"] {
 color: #9B4E28 !important;
+}
+
+.contentTag[title*="#Jan-"] {
+color: #66A4E8 !important;
+}
+
+.contentTag[title*="#Feb-"] {
+color: #D97C72 !important;
 }
 
 .contentTag[title*="#Mar-"] {
@@ -186,6 +200,26 @@ color: #0CE8E8 !important;
 color: #193FFF !important;
 }
 
+.contentTag[title*="#Aug-"] {
+color: #987550 !important;
+}
+
+.contentTag[title*="#Sep-"] {
+color: #E5884D !important;
+}
+
+.contentTag[title*="#Oct-"] {
+color: #FF4D0D !important;
+}
+
+.contentTag[title*="#Nov-"] {
+color: #6B583D !important;
+}
+
+.contentTag[title*="#Dec-"] {
+color: #00B3CA !important;
+}
+
 
 /**************************************************************
 *********************** Action Tags ***************************
@@ -194,8 +228,20 @@ color: #193FFF !important;
 color: #00C900 !important;
 }
 
+.contentTag[title*="#Approved"] {
+color: #00C900 !important;
+}
+
 .contentTag[title*="#InProcess"] {
 color: #FF6900 !important;
+}
+
+.contentTag[title*="#Pending"] {
+color: #14C7CC !important;
+}
+
+.contentTag[title*="#Waiting"] {
+color: #14C7CC !important;
 }
 
 .contentTag[title*="#Postponed"] {
@@ -204,11 +250,11 @@ font-style: italic !important;
 font-weight: normal !important;
 }
 
-.contentTag[title*="#Waiting"] {
-color: #14C7CC !important;
+.contentTag[title*="#YetStarted"] {
+color: #FF69B4 !important;
 }
 
-.contentTag[title*="#YetStarted"] {
+.contentTag[title*="#Unknown-Status"] {
 color: #FF69B4 !important;
 }
 
@@ -222,6 +268,13 @@ color: #BDF271 !important;
 
 .contentTag[title*="#Warning"] {
 color: #FF4000 !important;
+}
+
+.contentTag[title*="#Canceled"] {
+color: #FF0000 !important;
+/*font-style: italic !important;*/
+font-weight: normal !important;
+/*text-decoration: line-through !important;*/
 }
 
 .contentTag[title*="#Suggestions"] {
