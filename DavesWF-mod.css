@@ -223,6 +223,7 @@ body {
         /*font-family: 'Segoe UI' !important;*/
         font-size: 11px !important;
         font-weight: normal;
+        color: #0C86AB !important;
     }
     
     DIV.notes DIV.content {
@@ -235,10 +236,10 @@ body {
  
     
     /* Show full notes */
-    DIV.notes DIV.content {
+    /*DIV.notes DIV.content {
         height: auto !important;
         overflow: visible !important;
-    }
+    }*/
     
  
     
